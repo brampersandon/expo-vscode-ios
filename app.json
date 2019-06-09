@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "vscode",
+    "name": "vscode-ios",
     "slug": "vscode-remote-ios",
     "privacy": "unlisted",
     "sdkVersion": "33.0.0",

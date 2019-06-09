@@ -2,7 +2,7 @@ import React from 'react';
 import { KeyboardAvoidingView, StyleSheet, WebView, View } from 'react-native';
 
 // Change this to the URL of your coder.com instance
-const VSCODE_URL = "https://coder.com"
+const CODER_URL = "https://coder.com"
 
 // Change this to your VS Code top bar color
 // (I use Solarized Light, I'm sorry (I'm not sorry))
@@ -13,7 +13,7 @@ export default function App() {
     <View style={{width: "100%", height: "100%"}}>
       <View style={{ backgroundColor: TOPBAR_COLOR, height: 20}}/>
       <KeyboardAvoidingView style={{width: "100%", height: "100%"}} behavior={"padding"} enabled>
-        <WebView source={{ uri: VSCODE_URL }} style={styles.container} useWebKit={true} />
+        <WebView source={{ uri: CODER_URL }} style={styles.container} useWebKit={true} />
       </KeyboardAvoidingView>
     </View>
   );
