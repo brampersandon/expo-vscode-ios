@@ -24,6 +24,6 @@ At this point, you should be able to access the editor in Safari with a specific
 This particular project was brought about by [Owen Williams' piece](https://twitter.com/ow/status/1136007778257002496) after WWDC about how the upcoming multitasking features in iPadOS will make it possible (even _enjoyable_!) for developers to work on the iPad. After a few idle hours of setup, I'm inclined to agree!
 
 ## Issues
-- Slide Over/multitasking support (upstream w/ Expo Client)
-- Copy/paste fails inconsistently (upstream w/ coder.com)
+- ~Slide Over/multitasking support (upstream w/ Expo Client)~ Fixed in recent versions of Expo Client (noted 1/2020)
+- Copy/paste fails inconsistently (upstream w/ coder.com) – This isn't coder/code-server's fault, it goes al the way back to Monaco
 - You need to enter your Coder instance's password on every launch
